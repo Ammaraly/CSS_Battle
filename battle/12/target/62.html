@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="circle-small"></div>
+    <div class="circle-big left"></div>
+    <div class="circle-big right"></div>
+    
+  </div>
+  <style>
+    .container {
+      width: 150px;
+      height: 200px;
+      border-radius: 80px 80px 20px 20px;
+      background: #F2AD43;
+      overflow:hidden;
+      position: relative;
+    }
+    
+    .circle-big {
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      bottom: -100px;
+      border-radius: 50%;
+    }
+    
+    .circle-small{
+      width: 60px;
+      height: 60px;
+         border-radius: 50%;
+      background:#FFF58F;
+      position: absolute;
+      top: 90px;
+      right: 45px;
+    }
+    
+    .right {
+      background: #824B20;
+      right: -100px;
+    }
+    
+    .left {
+      background: #E08027;
+      left: -100px;
+    }
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #191919
+    }
+  </style>
+  
