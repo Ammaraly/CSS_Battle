@@ -1,0 +1,67 @@
+<div class="blue circle">
+    <div class="line-h line-1"></div>
+    <div class="line-h line-2"></div>
+    <div class="line-h line-3"></div>
+    <div class="circle-b c-r"></div>
+    <div class="circle-b c-l"></div>
+    <div class="line-v"></div>
+  </div>
+  <style>
+    .circle{
+      width: 150px;
+      height: 150px;
+      position: relative;
+      border-radius:100px;
+    }
+    
+    .circle-b{
+      width: 190px;
+      height: 190px;
+      position: absolute;
+      border-radius:200px;
+    }
+  
+    .c-l {
+      right: 30px;
+      top: -30px;
+      border: 10px solid #191919;
+    }
+    
+    .c-r {
+      left: 30px;
+      top: -30px;
+      border: 10px solid #191919;
+    }
+    .line-h {
+      position: absolute;
+      width: 150px;
+      height: 10px;
+      background:#191919;
+    }
+    
+    .line-v {
+      position: absolute;
+      width: 10px;
+      height: 150px;
+      left: 70px;
+      background:#191919;
+    }
+    .line-1 {
+      top: 30px;
+    }
+    .line-2 {
+      top: 70px;
+    }
+    .line-3 {
+      top: 110px;
+    }
+    .blue {
+      background: #4F77FF;
+    }
+    body {
+      display:flex;
+      justify-content: center;
+      align-items:center;
+      background:#191919;
+    }
+  </style>
