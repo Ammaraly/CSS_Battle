@@ -1,0 +1,97 @@
+
+<div class="left">
+<div class="circleBL"></div>
+<div class="circleTL"></div></div>
+<div class="right">
+  <div class="circleBR"></div>
+   <div class="circleTR"></div>
+     <div class="circleTM"></div>
+  <div class="circleBM"></div>
+</div>
+<style>
+
+   .left {
+     position: relative;
+    width: 140px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+  .right {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    background: #E38F66;
+  }
+  .circleBR {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #62306D;
+    bottom: 0px;
+    right: 0px;
+    transform: translateY(50%) translateX(50%);
+  }
+  
+  .circleBL {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #62306D;
+    bottom: 0px;
+    left: 0px;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  .circleTR {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #62306D;
+    top: 0px;
+    right: 0px;
+    transform: translateY(-50%) translateX(50%);
+  }
+  
+  .circleTL {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #62306D;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .circleTM {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #62306D;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  
+  .circleBM {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: #62306D;
+    bottom: 0px;
+    left: 0px;
+    transform: translateY(50%) translateX(-50%);
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #62306D
+  }
+</style>
